@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+# 🏥 MediCare Hospital - Online Appointment Booking System
 
-## Project info
+![Project Banner](https://medicare-hospital01.netlify.app/)
 
-**URL**: https://lovable.dev/projects/072ed8ce-12a6-4fec-a2ce-287c2337ee3b
+### 🌐 Live Demo  
+👉 **[Visit Here](https://medicare-hospital01.netlify.app/)**  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📖 Introduction
 
-**Use Lovable**
+**MediCare Hospital Appointment Booking System** is a modern, web-based application that allows patients to easily book hospital appointments online.  
+The project is built using **React (TypeScript)** with **Tailwind CSS** and **ShadCN UI** for a responsive and visually appealing interface.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/072ed8ce-12a6-4fec-a2ce-287c2337ee3b) and start prompting.
+It integrates **EmailJS** for automating communication — sending confirmation emails to both patients and hospital administration upon successful appointment submission.  
+Recently, **Supabase** integration was added to store and manage client appointment data efficiently.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🎯 Objectives
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- To develop a user-friendly and responsive appointment booking system.
+- To automate email communication using **EmailJS**.
+- To store patient details securely in **Supabase**.
+- To enhance the user experience through smooth form validation and transitions.
+- To provide a scalable foundation for future enhancements like login, admin panel, and tracking.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Category | Technology Used |
+|-----------|----------------|
+| **Frontend Framework** | React (TypeScript) |
+| **Styling** | Tailwind CSS |
+| **UI Library** | ShadCN UI |
+| **Email Automation** | EmailJS |
+| **Database** | Supabase |
+| **Date Handling** | date-fns |
+| **Version Control** | Git & GitHub |
+| **Editor** | Visual Studio Code |
+| **Deployment** | Netlify |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧩 Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+✅ Multi-step appointment booking form  
+✅ Automated email confirmation via EmailJS  
+✅ Real-time input validation  
+✅ Responsive design (mobile & desktop friendly)  
+✅ Data stored in Supabase for future access  
+✅ Clean and modern UI using ShadCN components  
+
+---
+
+## 🧱 Project Structure
+
+MediCare-Hospital/
+│
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Main page components
+│ ├── hooks/ # Custom React hooks
+│ ├── utils/ # Helper functions (date-fns, etc.)
+│ ├── App.tsx # Root app component
+│ ├── main.tsx # Entry point
+│
+├── public/ # Static assets
+├── package.json # Project dependencies
+├── tailwind.config.js # Tailwind configuration
+├── tsconfig.json # TypeScript configuration
+└── README.md # Documentation file
+
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/MediCare-Hospital.git
+
+# Navigate to the project directory
+cd MediCare-Hospital
+
+# Install dependencies
+npm install
+
+# Run the app
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/072ed8ce-12a6-4fec-a2ce-287c2337ee3b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
